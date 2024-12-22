@@ -10,7 +10,7 @@ let music; // 音楽ファイル
 
 function preload() {
     // abc.mp3 をロード
-    music = loadSound('alarm.mp3');
+    //music = loadSound('alarm.mp3');
 }
 
 function setup() {
@@ -18,7 +18,7 @@ function setup() {
     background("#CCCCCC"); // 背景色を #CCCCCC に設定
 
     // 音楽を再生
-    music.loop();
+    //music.loop();
 
     // グラフィックバッファを作成してボールを描画
     ballCanvas = createGraphics(canvasWidth, canvasHeight);
