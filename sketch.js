@@ -10,7 +10,7 @@ let music; // 音楽ファイル
 
 function preload() {
     // abc.mp3 をロード
-    music = loadSound('abc.mp3');
+    music = loadSound('alarm.mp3');
 }
 
 function setup() {
